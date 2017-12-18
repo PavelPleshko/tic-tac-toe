@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TTT</title>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<body>
+  <div class="info">
+    <p class="score-1"><span class="points"></span><span class="name"></span></p>
+
+<i class="points-divider">&#124;</i>
+  <p class="score-2"><span class="points"></span><span class="name"></span></p>
+</div>
+<div class="outer-space">
+	<button class="reset">Reset</button>
+
+  
+
+  <div class="player-one-turn">
+    <p></p>
+  </div>
+  <div class="player-two-turn">
+    <p></p>
+  </div>
+  <div class="board-container">
+    <div class="game-starter">
+        <p>X or O?</p>
+        <button class="choose-x">X</button>
+        <button class="choose-o">O</button>
+        <button class="back-button"><i class="fa fa-arrow-left"></i> Back</button>
+      </div>
+      <div class="game-choice">
+        <p>How do you want to play?</p>
+        <button class="one-player">One Player</button>
+        <button class="two-player">Two Player</button>
+      </div>
+    <div class="game-container">
+      <div class="draw-msg">
+        <p>DRAW</p>
+      </div>
+      <div class="lose-msg">
+        <p>YOU LOST</p>
+      </div>
+      <div class="win-msg">
+        <p>YOU WON</p>
+      </div>
+       <ul class="boxes">
+      </ul>
+      <canvas id="canvas"></canvas>
+     
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="tic.js"></script>
+
+</body>
+</html>
